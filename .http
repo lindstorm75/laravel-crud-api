@@ -1,0 +1,50 @@
+# GET http://localhost:8000/api/todos
+
+# POST http://localhost:8000/api/todos
+# Content-Type: application/json
+# Accept: application/json
+
+# {
+#   "title": "Get your eyes a break",
+#   "detail": "You're using them too much"
+# }
+
+# {
+#   "title": "Sleep",
+#   "detail": "You really need more sleep",
+#   "completed": false,
+#   "updated_at": "2021-04-02T15:57:27.000000Z",
+#   "created_at": "2021-04-02T15:57:27.000000Z",
+#   "id": 1
+# }
+
+# {
+#   "title": "Drink more water",
+#   "detail": "Keep hydrated!",
+#   "completed": false,
+#   "updated_at": "2021-04-02T15:58:47.000000Z",
+#   "created_at": "2021-04-02T15:58:47.000000Z",
+#   "id": 2
+# }
+
+# PUT http://localhost:8000/api/todos/3
+# Content-Type: application/json
+
+# {
+#   "detail": "give me a freaking break!"
+# }
+
+# {
+#   "id": 3,
+#   "title": "Get your eyes a break",
+#   "detail": "give me a freaking break!",
+#   "completed": "0",
+#   "created_at": "2021-04-02T16:02:25.000000Z",
+#   "updated_at": "2021-04-02T16:05:18.000000Z"
+# }
+
+DELETE http://localhost:8000/api/todos/2
+
+# {
+#   "message": "Todo removed!"
+# }
